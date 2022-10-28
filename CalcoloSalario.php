@@ -27,7 +27,7 @@ $Giorni=$_POST["Giorni"];
 $OreGiornaliere=$_POST["OreGiornaliere"];
 $Compenso=(Float)$_POST["Compenso"];
 $Risultato=$Giorni*$OreGiornaliere*$Compenso;
-echo "Guadagnerai $Risultato &#8364; lavorando $Giorni giorni al compenso di $Compenso &#8364;/h";
+echo "Guadagnerai $Risultato &#8364; lavorando $Giorni giorni al compenso di $Compenso &#8364";
 }
 ?>
 </div>
