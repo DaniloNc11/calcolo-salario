@@ -25,7 +25,7 @@
 
             <hr class="Separatore"><br>
 
-            <p class="Campo">Campos obbligatorio</p><br>
+            <p class="Campo">Campo obbligatorio</p><br>
             <input type="submit" value="CALCOLA" name="Calcola" class="Bottone"><br>
             
             <?php
