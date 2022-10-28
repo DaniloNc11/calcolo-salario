@@ -4,3 +4,28 @@ body
     mix-blend-mode: normal;
 }
 
+body
+{
+    background: linear-gradient(180deg, #D0CFFF 0%, #9ECAF3 100%);
+    mix-blend-mode: normal;
+}
+
+.Titolo
+
+{
+    width: 355px;
+    height: 49px;
+    left: 543px;
+    top: 196px;
+    
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
