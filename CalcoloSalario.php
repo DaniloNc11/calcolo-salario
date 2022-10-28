@@ -14,7 +14,6 @@
 <input type="text" name="Compenso" placeholder="Quanto verrai pagato all'ora?"required class="Casella3"><br>
 <input type="submit" value="CALCOLA" name="Calcola">
 </form>
-</div>
 <?php
 if(isset($_POST["Calcola"]))
 {
@@ -25,4 +24,5 @@ $Risultato=$Giorni*$OreGiornaliere*$Compenso;
 echo "Guadagnerai $Risultato &#8364; lavorando $Giorni giorni al compenso di $Compenso &#8364;/h";
 }
 ?>
+</div>
 </html>
