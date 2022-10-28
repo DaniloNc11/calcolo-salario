@@ -5,7 +5,6 @@
 </head>
 <body>
 <form action='<?php echo $_SERVER["PHP_SELF"];?>' method='post'>
-<div class="Quadrato">
 <h1 class="Titolo">Quanto sarai povero?</h1>
 <p class="Giorni">Giorni</p><br>
 <input type="text" name="Giorni" placeholder="Quanti giorni durera' il lavoro?" required class="Casella1"><br>
@@ -31,5 +30,4 @@ $Risultato=$Giorni*$OreGiornaliere*$Compenso;
 echo "Guadagnerai $Risultato &#8364; lavorando $Giorni giorni al compenso di $Compenso &#8364";
 }
 ?>
-</div>
 </html>
