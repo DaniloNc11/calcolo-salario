@@ -1,2 +1,6 @@
-background: linear-gradient(180deg, #D0CFFF 0%, #9ECAF3 100%);
-mix-blend-mode: normal;
+body
+{
+    background: linear-gradient(180deg, #D0CFFF 0%, #9ECAF3 100%);
+    mix-blend-mode: normal;
+}
+
