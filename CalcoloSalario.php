@@ -1,4 +1,7 @@
 <html>
+<head>
+<link rel="stylesheet" href="STILE.css">
+</head>
 <body>
 <form action='<?php echo $_SERVER["PHP_SELF"];?>' method='post'>
 <b>Giorni</b><br>
