@@ -4,6 +4,7 @@
 </head>
 <body>
 <form action='<?php echo $_SERVER["PHP_SELF"];?>' method='post'>
+<div class="Quadrato">
 <h1 class="Titolo">Quanto sarai povero?</h1>
 <p class="Giorni">Giorni</p><br>
 <input type="text" name="Giorni" placeholder="Quanti giorni durera' il lavoro?" required><br>
@@ -13,6 +14,7 @@
 <input type="text" name="Compenso" placeholder="Quanto verrai pagato all'ora?"required><br>
 <input type="submit" value="CALCOLA" name="Calcola">
 </form>
+</div>
 <?php
 if(isset($_POST["Calcola"]))
 {
