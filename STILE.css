@@ -101,3 +101,60 @@ color: #000000;
     background: #FFFFFF;
     
 }
+
+.Casella1
+
+{
+    width: 256.3px;
+    height: 16px;
+    left: 547.54px;
+    top: 335px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    
+    color: #A4A4A4;
+}
+
+.Casella2
+
+{
+    width: 207.22px;
+height: 16px;
+left: 547.54px;
+top: 428px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #A4A4A4;
+}
+
+.Casella3
+
+{
+    width: 249.48px;
+height: 16px;
+left: 547.54px;
+top: 521px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #A4A4A4;
+}
