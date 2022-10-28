@@ -4,30 +4,22 @@
         <link rel="stylesheet" href="STILE.css">
     </head>
     <body>
-
         <form action='<?php echo $_SERVER["PHP_SELF"];?>' method='post'>
         <div class="Quadrato">
             <h1 class="Titolo">Quanto sarai povero?</h1>
             <p class="Giorni">Giorni</p><br>
             <input type="text" name="Giorni" placeholder="Quanti giorni durera' il lavoro?" required class="Casella1"><br>
-        
             <hr class="Separatore"><br>
-        
             <p class="Campo">Campo obbligatorio</p><br>
             <p class="OreGiornaliere">Ore giornaliere di lavoro</p><br>
             <input type="text" name="OreGiornaliere" placeholder="Quanto lavori al giorno?"required class="Casella2"><br>
-
             <hr class="Separatore"><br>
-
             <p class="Campo">Campo obbligatorio</p><br>
             <p class="Compenso">Compenso orario</p><br>
             <input type="text" name="Compenso" placeholder="Quanto verrai pagato all'ora?"required class="Casella3"><br>
-
             <hr class="Separatore"><br>
-
             <p class="Campo">Campo obbligatorio</p><br>
             <input type="submit" value="CALCOLA" name="Calcola" class="Bottone"><br>
-            
             <?php
                 if(isset($_POST["Calcola"])){
                 $Giorni=$_POST["Giorni"];
