@@ -8,10 +8,16 @@
 <h1 class="Titolo">Quanto sarai povero?</h1>
 <p class="Giorni">Giorni</p><br>
 <input type="text" name="Giorni" placeholder="Quanti giorni durera' il lavoro?" required class="Casella1"><br>
+<hr class="Separatore"><br>
+<p class="Campo">Campo obbligatorio</p><br>
 <p class="OreGiornaliere">Ore giornaliere di lavoro</p><br>
 <input type="text" name="OreGiornaliere" placeholder="Quanto lavori al giorno?"required class="Casella2"><br>
+<hr class="Separatore"><br>
+<p class="Campo">Campo obbligatorio</p><br>
 <p class="Compenso">Compenso orario</p><br>
 <input type="text" name="Compenso" placeholder="Quanto verrai pagato all'ora?"required class="Casella3"><br>
+<hr class="Separatore"><br>
+<p class="Campo">Campo obbligatorio</p><br>
 <input type="submit" value="CALCOLA" name="Calcola" class="Bottone"><br>
 </form>
 <?php
@@ -21,7 +27,7 @@ $Giorni=$_POST["Giorni"];
 $OreGiornaliere=$_POST["OreGiornaliere"];
 $Compenso=(Float)$_POST["Compenso"];
 $Risultato=$Giorni*$OreGiornaliere*$Compenso;
-echo "Guadagnerai $Risultato &#8364; lavorando $Giorni giorni al compenso di $Compenso &#8364;/h";
+echo "Guadagnerai $Risultato &#8364; lavorando $Giorni giorni al compenso di $Compenso &#8364;/h">;
 }
 ?>
 </div>
