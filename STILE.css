@@ -1,2 +1,91 @@
-background: linear-gradient(180deg, #D0CFFF 0%, #9ECAF3 100%);
-mix-blend-mode: normal;
+body
+{
+    background: linear-gradient(180deg, #D0CFFF 0%, #9ECAF3 100%);
+    mix-blend-mode: normal;
+}
+
+body
+{
+    background: linear-gradient(180deg, #D0CFFF 0%, #9ECAF3 100%);
+    mix-blend-mode: normal;
+}
+
+.Titolo
+
+{
+    width: 355px;
+    height: 49px;
+    left: 543px;
+    top: 196px;
+    
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.Giorni
+{
+
+width: 51.81px;
+height: 16px;
+left: 538px;
+top: 299px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+
+.OreGiornaliere
+
+{
+    width: 211.31px;
+    height: 16px;
+    left: 538px;
+    top: 392px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+}
+
+
+.Compenso
+
+{
+    width: 152.69px;
+    height: 16px;
+    left: 538px;
+    top: 485px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
