@@ -5,11 +5,11 @@
 <body>
 <form action='<?php echo $_SERVER["PHP_SELF"];?>' method='post'>
 <h1 class="Titolo">Quanto sarai povero?</h1>
-<b>Giorni</b><br>
+<p class="Giorni">Giorni</p><br>
 <input type="text" name="Giorni" placeholder="Quanti giorni durera' il lavoro?" required><br>
-<b>Ore giornaliere di lavoro</b><br>
+<p class="OreGiornaliere">Ore giornaliere di lavoro</p><br>
 <input type="text" name="OreGiornaliere" placeholder="Quanto lavori al giorno?"required><br>
-<b>Compenso orario</b><br>
+<p class="Compenso">Compenso orario</p><br>
 <input type="text" name="Compenso" placeholder="Quanto verrai pagato all'ora?"required><br>
 <input type="submit" value="CALCOLA" name="Calcola">
 </form>
